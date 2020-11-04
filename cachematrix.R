@@ -13,7 +13,7 @@ makeCacheMatrix <- function(x = matrix()) {
         getmtx = getmtx)
 }
 
-## Returns a inverse matrix, if its cache is already calclated use it, solve() otherwise
+## Returns a inverse matrix, if its cache is already calculated use it, solve() otherwise
 cacheSolve <- function(x, ...) {
 ## Return a matrix that is the inverse of 'x'
     m <- x$getmtx()
